@@ -5,10 +5,27 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Digital Design Studio">
 
-  <title>Prototype Intro</title>
+  <meta property="og:title" content="LoneUX"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://loneux.com"/>
+  <meta property="og:description" content="Digital Design Studio">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://loneux.com">
+  <meta name="twitter:title" content="LoneUX">
+  <meta name="twitter:description" content="Digital Design Studio">
+
+  <link rel="icon" type="images/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="images/png" href="favicon-16x16.png" sizes="16x16" />
+
+  <link rel="apple-touch-icon" href="images/touch-icon.png">
+
+  <title>LoneUX</title>
 
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 
   <link rel="stylesheet" href="css/styles.min.css">
 
@@ -17,114 +34,51 @@
 
   <header role="presentation" id="info-card" class="info-card">
     <h1>LoneUX</h1>
-    <h2>Digital Experience Design&nbsp;Studio</h2>
-    <a href="mailto:contact@loneux.com">contact@loneux.com</a>
+    <h2>Digital Design Studio</h2>
+
+    <script type="text/javascript" language="javascript">
+    { coded = "aidbuab@EidRsn.aiG"
+    key = "YuR0hVUibSG5KvMXzxNsAP6W1yFcw2QZ4Crn9klgIJLBqaepT3fotdmOE8H7jD"
+    shift=coded.length
+    link=""
+    for (i=0; i<coded.length; i++) {
+      if (key.indexOf(coded.charAt(i))==-1) {
+        ltr = coded.charAt(i)
+        link += (ltr)
+      }
+      else {
+        ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+        link += (key.charAt(ltr))
+      }
+    }
+    document.write("<a class='email' href='mailto:"+link+"'>Contact Us</a>")
+    }
+    </script><noscript><span class="email">contact [at] loneux [dot] com</span></noscript>
+
     <p>San Francisco</p>
   </header>
 
-  <svg id="initialize" class="initialize" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <line id="svg-line-vertical-a" class="svg-line-vertical-a" x1="0" y1="0" x2="0" y2="0" style="stroke:rgb(149, 144, 150);stroke-width:1" stroke-dasharray="3, 3"/>
-    <line id="svg-line-vertical-b" class="svg-line-vertical-b" x1="0" y1="0" x2="0" y2="0" style="stroke:rgb(149, 144, 150);stroke-width:1" stroke-dasharray="3, 3"/>
-    <line id="svg-line-horizontal-a" class="svg-line-horizontal-a" x1="0" y1="0" x2="0" y2="0" style="stroke:rgb(149, 144, 150);stroke-width:1" stroke-dasharray="3, 3"/>
-    <line id="svg-line-horizontal-b" class="svg-line-horizontal-b" x1="0" y1="0" x2="0" y2="0" style="stroke:rgb(149, 144, 150);stroke-width:1" stroke-dasharray="3, 3"/>
-  </svg>
+  <figure class="window"></figure>
 
-  <svg id="brandmark" class="brandmark" width="100" height="160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="wordmark">
-      <rect id="wordmark-fill" fill="#FFFFFF" x="0" y="0" width="100" height="30"></rect>
+  <svg class="wordmark" width="100" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <rect id="bar" fill="#FFFFFF" x="0" y="0" width="100" height="30"></rect>
       <polygon id="l" fill="#352B37" points="18 18.782227 18 12.112305 19.71875 12.112305 19.71875 17.283203 22.3994141 17.283203 22.3994141 18.782227"></polygon>
       <path d="M27.9365234,15.452148 C27.9365234,14.954099 28.0268546,14.489423 28.2075195,14.058105 C28.3881845,13.626788 28.6363917,13.261395 28.9521484,12.961914 C29.2679052,12.662433 29.6463194,12.427247 30.0874023,12.256348 C30.5284853,12.085448 31.0012996,12 31.5058594,12 C32.0104192,12 32.4824197,12.085448 32.921875,12.256348 C33.3613303,12.427247 33.7381169,12.662433 34.0522461,12.961914 C34.3663753,13.261395 34.6137686,13.626788 34.7944336,14.058105 C34.9750986,14.489423 35.0654297,14.954099 35.0654297,15.452148 C35.0654297,15.950198 34.9750986,16.414874 34.7944336,16.846191 C34.6137686,17.277509 34.3663753,17.642902 34.0522461,17.942383 C33.7381169,18.241863 33.3613303,18.47705 32.921875,18.647949 C32.4824197,18.818849 32.0104192,18.904297 31.5058594,18.904297 C31.0012996,18.904297 30.5284853,18.818849 30.0874023,18.647949 C29.6463194,18.47705 29.2679052,18.241863 28.9521484,17.942383 C28.6363917,17.642902 28.3881845,17.277509 28.2075195,16.846191 C28.0268546,16.414874 27.9365234,15.950198 27.9365234,15.452148 Z M29.6894531,15.452148 C29.6894531,16.002281 29.8570947,16.461261 30.1923828,16.829102 C30.5276709,17.196942 30.9654921,17.380859 31.5058594,17.380859 C32.0462267,17.380859 32.483234,17.196942 32.8168945,16.829102 C33.1505551,16.461261 33.3173828,16.002281 33.3173828,15.452148 C33.3173828,14.89876 33.1505551,14.438967 32.8168945,14.072754 C32.483234,13.706541 32.0462267,13.523438 31.5058594,13.523438 C30.9654921,13.523438 30.5276709,13.706541 30.1923828,14.072754 C29.8570947,14.438967 29.6894531,14.89876 29.6894531,15.452148 Z" id="o" fill="#352B37"></path>
       <polygon id="n" fill="#352B37" points="40.9345703 18.782227 40.9345703 12.112305 42.7021484 12.112305 45.4023438 15.78418 45.4023438 12.112305 47.1357422 12.112305 47.1357422 18.782227 45.4755859 18.782227 42.6533203 14.919922 42.6533203 18.782227"></polygon>
       <polygon id="e" fill="#352B37" points="53.3320312 18.782227 53.3320312 12.112305 58.2197266 12.112305 58.2197266 13.611328 55.0507812 13.611328 55.0507812 14.651367 58.1513672 14.651367 58.1513672 16.150391 55.0507812 16.150391 55.0507812 17.283203 58.2197266 17.283203 58.2197266 18.782227"></polygon>
       <path d="M64.2207031,16.082031 L64.2207031,12.112305 L65.96875,12.112305 L65.96875,16.023438 C65.96875,16.430341 66.0908191,16.7583 66.3349609,17.007324 C66.5791028,17.256349 66.9274066,17.380859 67.3798828,17.380859 C67.8258486,17.380859 68.1708972,17.256349 68.4150391,17.007324 C68.6591809,16.7583 68.78125,16.430341 68.78125,16.023438 L68.78125,12.112305 L70.5195312,12.112305 L70.5195312,16.072266 C70.5195312,16.49219 70.4552415,16.873859 70.3266602,17.217285 C70.1980788,17.560711 70.007651,17.85856 69.7553711,18.11084 C69.5030912,18.36312 69.1751322,18.55843 68.7714844,18.696777 C68.3678365,18.835124 67.903974,18.904297 67.3798828,18.904297 C66.8557917,18.904297 66.3911153,18.834311 65.9858398,18.694336 C65.5805644,18.554361 65.250164,18.358237 64.9946289,18.105957 C64.7390938,17.853677 64.5462246,17.557456 64.4160156,17.217285 C64.2858066,16.877114 64.2207031,16.4987 64.2207031,16.082031 Z" id="u" fill="#352B37"></path>
       <polygon id="x" fill="#352B37" points="76.0224609 18.782227 78.3417969 15.364258 76.1689453 12.112305 78.2001953 12.112305 79.4990234 14.202148 80.7880859 12.112305 82.8291016 12.112305 80.6611328 15.354492 82.9804688 18.782227 80.9492188 18.782227 79.4990234 16.541016 78.0488281 18.782227"></polygon>
-    </g>
   </svg>
 
-  <main id="world">
-    <div id="background" class="background">
-      <canvas id='shootingStar' class="shooting-star" width='100%' height='100%'></canvas>
-      <canvas id='starfield' class="starfield" width='100%' height='100%'></canvas>
-      <div class="parallax">
-        <div class="parallax__group">
-          <div id="layer01" class="layer-01 parallax__layer"></div>
-          <div id="layer02" class="layer-02 parallax__layer"></div>
-          <div id="layer03" class="layer-03 parallax__layer"></div>
-          <div class="copy-block-01">
-            <h2><span class="line-01">Content is</span> <span class="line-02">Everything</span></h2>
-            <h3>But falls flat without a point of view</h3>
-            <p>Whether your brand is in a pocket, behind a screen, on a face, or all around, experiences that leave a lasting impact require a point of view. Memory serves to impress experiences that are significant, meaningful, and real. The world is the real content, and a perspective provides context. The interface that supports it can either break the experience or get out of the way.</p>
-          </div>
-          <div id="layer04" class="layer-04 parallax__layer"></div>
-          <div id="layer05" class="layer-05 parallax__layer"></div>
-          <div class="copy-block-02">
-            <h4>About Us</h4>
-            <p>We are small group of experience designers focused on building multi screen and immersive narrative experiences with a point of view. Style without a point of view is just trendy.</p>
-          </div>
-          <div id="layer06" class="layer-06 parallax__layer"></div>
-        </div>
-      </div>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      <div id="hitarea-partial" class="hitarea-partial"></div>
-      <div id="hitarea" class="hitarea"></div>
+    ga('create', 'UA-89660421-1', 'auto');
+    ga('send', 'pageview');
 
-
-
-      <div id="background-scale" class="background-scale">
-        <div id="parallax-scale" class="parallax">
-
-            <div class="layer-01 parallax__layer"></div>
-            <div class="layer-02 parallax__layer"></div>
-            <div class="layer-03 parallax__layer"></div>
-            <div class="copy-block-01">
-              <h2>Content is Everything</h2>
-              <h3>But falls flat without a point of view</h3>
-              <p>Whether your brand is in a pocket, behind a screen, on a face, or all around, experiences that leave a lasting impact require a point of view. Memory serves to impress experiences that are significant, meaningful, and real. The world is the real content, and a perspective provides context. The interface that supports it can either break the experience or get out of the way.</p>
-            </div>
-            <div class="layer-04 parallax__layer"></div>
-            <div class="layer-05 parallax__layer"></div>
-            <div class="copy-block-02">
-              <h4>About Us</h4>
-              <p>We are small group of experience designers focused on building multi screen and immersive narrative experiences with a point of view. Style without a point of view is just trendy.</p>
-            </div>
-            <div class="layer-06 parallax__layer"></div>
-
-        </div>
-      </div>
-
-      <svg id="brandmark-lens" class="brandmark-lens" width="100" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g id="wordmark-lens" class="wordmark-lens">
-          <rect id="wordmark-fill-lens" fill="#FFFFFF" x="0" y="0" width="100" height="30"></rect>
-          <polygon id="l" fill="#352B37" points="18 18.782227 18 12.112305 19.71875 12.112305 19.71875 17.283203 22.3994141 17.283203 22.3994141 18.782227"></polygon>
-          <path d="M27.9365234,15.452148 C27.9365234,14.954099 28.0268546,14.489423 28.2075195,14.058105 C28.3881845,13.626788 28.6363917,13.261395 28.9521484,12.961914 C29.2679052,12.662433 29.6463194,12.427247 30.0874023,12.256348 C30.5284853,12.085448 31.0012996,12 31.5058594,12 C32.0104192,12 32.4824197,12.085448 32.921875,12.256348 C33.3613303,12.427247 33.7381169,12.662433 34.0522461,12.961914 C34.3663753,13.261395 34.6137686,13.626788 34.7944336,14.058105 C34.9750986,14.489423 35.0654297,14.954099 35.0654297,15.452148 C35.0654297,15.950198 34.9750986,16.414874 34.7944336,16.846191 C34.6137686,17.277509 34.3663753,17.642902 34.0522461,17.942383 C33.7381169,18.241863 33.3613303,18.47705 32.921875,18.647949 C32.4824197,18.818849 32.0104192,18.904297 31.5058594,18.904297 C31.0012996,18.904297 30.5284853,18.818849 30.0874023,18.647949 C29.6463194,18.47705 29.2679052,18.241863 28.9521484,17.942383 C28.6363917,17.642902 28.3881845,17.277509 28.2075195,16.846191 C28.0268546,16.414874 27.9365234,15.950198 27.9365234,15.452148 Z M29.6894531,15.452148 C29.6894531,16.002281 29.8570947,16.461261 30.1923828,16.829102 C30.5276709,17.196942 30.9654921,17.380859 31.5058594,17.380859 C32.0462267,17.380859 32.483234,17.196942 32.8168945,16.829102 C33.1505551,16.461261 33.3173828,16.002281 33.3173828,15.452148 C33.3173828,14.89876 33.1505551,14.438967 32.8168945,14.072754 C32.483234,13.706541 32.0462267,13.523438 31.5058594,13.523438 C30.9654921,13.523438 30.5276709,13.706541 30.1923828,14.072754 C29.8570947,14.438967 29.6894531,14.89876 29.6894531,15.452148 Z" id="o" fill="#352B37"></path>
-          <polygon id="n" fill="#352B37" points="40.9345703 18.782227 40.9345703 12.112305 42.7021484 12.112305 45.4023438 15.78418 45.4023438 12.112305 47.1357422 12.112305 47.1357422 18.782227 45.4755859 18.782227 42.6533203 14.919922 42.6533203 18.782227"></polygon>
-          <polygon id="e" fill="#352B37" points="53.3320312 18.782227 53.3320312 12.112305 58.2197266 12.112305 58.2197266 13.611328 55.0507812 13.611328 55.0507812 14.651367 58.1513672 14.651367 58.1513672 16.150391 55.0507812 16.150391 55.0507812 17.283203 58.2197266 17.283203 58.2197266 18.782227"></polygon>
-          <path d="M64.2207031,16.082031 L64.2207031,12.112305 L65.96875,12.112305 L65.96875,16.023438 C65.96875,16.430341 66.0908191,16.7583 66.3349609,17.007324 C66.5791028,17.256349 66.9274066,17.380859 67.3798828,17.380859 C67.8258486,17.380859 68.1708972,17.256349 68.4150391,17.007324 C68.6591809,16.7583 68.78125,16.430341 68.78125,16.023438 L68.78125,12.112305 L70.5195312,12.112305 L70.5195312,16.072266 C70.5195312,16.49219 70.4552415,16.873859 70.3266602,17.217285 C70.1980788,17.560711 70.007651,17.85856 69.7553711,18.11084 C69.5030912,18.36312 69.1751322,18.55843 68.7714844,18.696777 C68.3678365,18.835124 67.903974,18.904297 67.3798828,18.904297 C66.8557917,18.904297 66.3911153,18.834311 65.9858398,18.694336 C65.5805644,18.554361 65.250164,18.358237 64.9946289,18.105957 C64.7390938,17.853677 64.5462246,17.557456 64.4160156,17.217285 C64.2858066,16.877114 64.2207031,16.4987 64.2207031,16.082031 Z" id="u" fill="#352B37"></path>
-          <polygon id="x" fill="#352B37" points="76.0224609 18.782227 78.3417969 15.364258 76.1689453 12.112305 78.2001953 12.112305 79.4990234 14.202148 80.7880859 12.112305 82.8291016 12.112305 80.6611328 15.354492 82.9804688 18.782227 80.9492188 18.782227 79.4990234 16.541016 78.0488281 18.782227"></polygon>
-        </g>
-      </svg>
-
-      <nav id="nav">
-        <div id="close" class="close"></div>
-      </nav>
-
-    </div>
-
-  </main>
-
-  <div id="window-hitarea" class="window-hitarea"></div>
-
-  <div id="reticle" class="reticle transition">
-    <svg class="fuseTrack">
-      <circle cx="2" cy="2" r="15" stroke="#FFFFFF" stroke-width="2" fill="none"></circle>
-    </svg>
-    <svg class="fuseTimer">
-      <circle cx="2" cy="2" r="15" stroke="#FFC203" stroke-width="2" fill="none"></circle>
-    </svg>
-  </div>
-
-  <div id="curtain" class="curtain"></div>
-
-  <script src="js/main.min.js"></script>
+  </script>
 </body>
 </html>
